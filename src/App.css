@@ -1,0 +1,26 @@
+    body{
+        background: #CCD3CA; /* Background color of the body */
+        color: #333; /* Text color of the body */
+    }
+  
+  /* Create a custom scrollbar */
+  body::-webkit-scrollbar {
+    width: 0.5rem; /* Width of the scrollbar */
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    background: transparent; /* Background color of the track */
+  }
+  
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar handle */
+    border-radius: 0.25rem; /* Rounded corners */
+  }
+  
+  /* Handle on hover */
+  body::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color on hover */
+  }
+  
